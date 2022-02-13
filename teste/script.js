@@ -20,19 +20,19 @@ const obj = {
     }
 };
 
-function subTotal({price, quantity}){
-    return price*quantity
+function subtotal({price, quantity}){
+    return price* quantity
 }
-
-console.log(subTotal(obj.items[0]))
+console.log(subtotal(obj.items[0]))
 
 function total({items}){
-     let soma=0
-     for(let i=0;i<items.length;i++){
-         soma= soma+ subTotal(items[i])
-     }
-     return soma
+    let soma = 0
+    for(let i=0; i<items.length;i++){
+        soma = soma+subtotal(items[i])
+    }
+    return soma
 }
-
-
 console.log(total(obj))
+
+const clone = {...obj,valor:10}
+console.log(clone)

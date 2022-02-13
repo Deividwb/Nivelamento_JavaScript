@@ -1,0 +1,24 @@
+h1{
+    color: red;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;      
+  
+}
+
+button{
+    background-color: red;
+    color: #E8E8E8;
+    
+}
+
+
+html, body {
+    background-color: #E8E8E8;
+}
+
+span{
+    font-size: 30px;
+}
